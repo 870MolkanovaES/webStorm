@@ -14,7 +14,11 @@ import Shop from "./components/Shop";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
-function App() {
+
+
+
+
+function App(props) {
   return (
       <div>
               <div id="preloder">
@@ -54,7 +58,7 @@ function App() {
               }}/>
               <Route path="/blog" render={()=>{
                   return <div>
-                      <Blog/>
+                      <Blog getArticles={props.getArticles}/>
                   </div>
               }}/>
               <Route path="/contact" render={()=>{

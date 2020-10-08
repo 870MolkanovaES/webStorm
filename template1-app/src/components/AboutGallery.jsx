@@ -65,7 +65,7 @@ const AboutGallery = ()=>{
                                     <div className="gallery-item">
                                         <img src="img/gallery/1.jpg" alt="#"/>
                                             <h4>Страсть 2017k</h4>
-                                            <p>Художник: John Doe<br/>3 февраял 2019–28 июля 2019</p>
+                                            <p>Художник: John Doe<br/>3 февраля 2019–28 июля 2019</p>
                                     </div>
                                 </div>
                             </div>
