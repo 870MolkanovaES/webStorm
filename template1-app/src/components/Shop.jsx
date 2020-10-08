@@ -92,7 +92,7 @@ const Shop = ()=>{
                                                    aria-controls="tab-2" aria-selected="false">Duis accumsan</NavLink>
                                             </li>
                                             <li className="nav-item">
-                                                <NavLink className="nav-link active" id="3-tab" data-toggle="tab" href="#tab-3" role="tab"
+                                                <NavLink className="nav-link active" id="3-tab" data-toggle="tab" to="#tab-3" role="tab"
                                                    aria-controls="tab-3" aria-selected="true">Vestibulum in nibh</NavLink>
                                             </li>
                                         </ul>
