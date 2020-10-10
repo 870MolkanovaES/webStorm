@@ -504,7 +504,6 @@
  .hero-section {
    clear: both;
  }
- 
  .hs-item {
    height: 950px;
    position: relative;
@@ -517,6 +516,14 @@
    overflow: hidden;
    padding: 15px;
  }
+ .carousel-inner {
+    height: 950px;
+}
+ .carousel-item{
+     height: 950px;
+     position: relative;
+     padding: 15px;
+ }
  
  .hs-item .hs-bg {
    position: absolute;
@@ -527,6 +534,7 @@
    top: 0;
    opacity: 0;
  }
+
  
  .hs-item .hs-text {
    position: relative;
@@ -541,6 +549,23 @@
    top: 50px;
    opacity: 0;
  }
+ .carousel-item .hs-text {
+    position: relative;
+    z-index: 2;
+}
+ .carousel-item .hs-text h1 {
+     font-size: 160px;
+     line-height: 0.9;
+     margin-bottom: 30px;
+     top: 50px;
+ }
+ .carousel-item .hs-text p {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    top: 50px;
+
+}
  
  .hs-item .hs-text p {
    font-size: 36px;
@@ -578,6 +603,15 @@
    opacity: 1;
    -webkit-transition: all 0.5s ease 0.2s;
    transition: all 0.5s ease 0.2s;
+ }
+ .d-block{
+     -webkit-transition: all 0.5s ease 0.2s;
+     transition: all 0.5s ease 0.2s;
+     position: absolute;
+     right: 0%;
+     top: 0;
+     height: 100%;
+     width: 100%;
  }
  
  .hero-slider .owl-item.active .hs-item .hs-text h2 {
@@ -729,7 +763,7 @@
  
  .blog-item .blog-thumb {
    width: 264px;
-   float: left;
+   float:left;
    overflow: hidden;
    margin-right: 30px;
    margin-bottom: 10px;

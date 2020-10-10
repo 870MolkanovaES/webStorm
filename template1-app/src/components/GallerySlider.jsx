@@ -1,31 +1,58 @@
 import React from 'react';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 
-const GallerySlider = ()=>{
-    return <div>
-                <section className="gallery-slider-section">
-                    <div className="sp-container">
-                        <h2 className="gallery-title">Выставки</h2>
-                    </div>
-                    <div className="gallery-slider owl-carousel">
-                        <div className="gallery-item">
-                            <img src="img/gallery/8.jpg" alt=""/>
-                                <h4>Зима</h4>
-                                <p>Artist: John Doe<br/>3 февраля 2019–28 июля 2019</p>
-                        </div>
-                        <div className="gallery-item">
-                            <img src="img/gallery/9.jpg" alt=""/>
-                                <h4>Портреты</h4>
-                                <p>Художник: John Doe<br/>12 июля 2018–3 сентября 2018</p>
-                        </div>
-                        <div className="gallery-item">
-                            <img src="img/gallery/10.jpg" alt=""/>
-                                <h4>Глубокий синий</h4>
-                                <p>Художник: John Doe<br/>3 июня 2018–16 сентября 2018</p>
-                        </div>
+function Carousel() {
 
+    return <section className="gallery-slider-section">
+        <div className="sp-container">
+            <h2 className="gallery-title">Наши последние выставки</h2>
+
+        </div>
+        <OwlCarousel
+            className="owl-theme"
+            items="3"
+            autoplay
+            loop
+            dots
+        >
+            <div className="item">
+                <div className="cake_feature_item">
+                    <div className="cake_img">
+                        <img src="img/gallery/8.jpg" alt=""/>
                     </div>
-                </section>
-    </div>
+                    <div className="cake_text">
+                        <h4>Зима</h4>
+                        <p>Artist: John Doe<br/>3 февраля 2019–28 июля 2019</p>
+                    </div>
+                </div>
+            </div>
+            <div className="item">
+                <div className="cake_feature_item">
+                    <div className="cake_img">
+                        <img src="img/gallery/9.jpg" alt=""/>
+                    </div>
+                    <div className="cake_text">
+                        <h4>Зима</h4>
+                        <p>Artist: John Doe<br/>3 февраля 2019–28 июля 2019</p>
+                    </div>
+                </div>
+            </div>
+            <div className="item">
+                <div className="cake_feature_item">
+                    <div className="cake_img">
+                        <img src="img/gallery/10.jpg" alt=""/>
+                    </div>
+                    <div className="cake_text">
+                        <h4>Зима</h4>
+                        <p>Artist: John Doe<br/>3 февраля 2019–28 июля 2019</p>
+                    </div>
+                </div>
+            </div>
+
+        </OwlCarousel>
+    </section>
 }
 
-export default GallerySlider;
+export default Carousel;

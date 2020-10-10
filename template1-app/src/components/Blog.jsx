@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 const BlogItem=(props)=>{
     return <div className="blog-post-item">
-        <img src={props.img} alt="" className="blog-thumb"/>
+        <img src={props.img} alt="" className="blog-thumb" style={{display:"inline-block"}}/>
         <div className="post-content">
             <div className="post-cata">{props.category}</div>
             <h4 className="post-title">{props.title}</h4>
@@ -37,17 +37,9 @@ const Blog = (props)=>{
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis et augue non mollis. Sed
                                 sagittis.</p>
                         </div>
-
-                        <div className="row m-0">
-                            <div className="col-md-6 p-0">
-                                <div className="gallery-left-col">
-                                    {blogItems}
-                                </div>
-                            </div>
-                            <div className="col-md-6 p-0">
-                                <div className="gallery-right-col">
-                                    {blogItems}
-                                </div>
+                        <div className="row" style={{display:"inline-block"}}>
+                            <div className="col-md-4 p-0" style={{display:"inline-block"}}>
+                                {blogItems}
                             </div>
                         </div>
                     </div>

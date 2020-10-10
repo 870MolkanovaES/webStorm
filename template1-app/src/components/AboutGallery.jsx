@@ -8,7 +8,7 @@ const AboutGallery = ()=>{
                         <div className="row m-0">
                             <div className="col-lg-6 p-0">
                                 <div className="gallery-left-col">
-                                    <h2 className="big-title">О Галерее</h2>
+                                    <h2 className="big-title">Галерея The Look</h2>
                                     <div className="gallery-item">
                                         <img src="img/gallery/7.jpg" alt="#"/>
                                             <h4>Сейчас @ The Look</h4>
