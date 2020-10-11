@@ -12,7 +12,7 @@ const Menu = ()=>{
                     <li><NavLink exact to="/index">Главная</NavLink></li>
                     <li><NavLink to="/gallery">Галерея</NavLink></li>
                     <li><NavLink to="/artists">Художники</NavLink></li>
-                    <li><NavLink to="/elements">Заказ</NavLink></li>
+                    <li><NavLink to="/elements">Магазин</NavLink></li>
                     <li><NavLink to="/blog">Блог</NavLink></li>
                     <li><NavLink to="/contact">Контакты</NavLink></li>
                 </ul>

@@ -18,7 +18,7 @@ const BlogNews = ()=>{
                                     <h4>Как сделать отличный снимок</h4>
                                     <span>23 января 2019</span>
                                     <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus sus-cipit nisl quis nulla pretium, vitae ornare leo sollicitudin. Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. </p>
-                                    <NavLink to="#" className="site-btn">Читать дальше <img src="img/icons/arrow-right-black.png" alt=""/></NavLink>
+                                    <NavLink to="/blog" className="site-btn">Читать дальше <img src="img/icons/arrow-right-black.png" alt=""/></NavLink>
                                 </div>
                             </div>
                             <div className="blog-item">
@@ -30,7 +30,7 @@ const BlogNews = ()=>{
                                     <h4>10 советов начинающему фотографу</h4>
                                     <span>23 января 2019</span>
                                     <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus sus-cipit nisl quis nulla pretium, vitae ornare leo sollicitudin. Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. </p>
-                                    <NavLink to="#" className="site-btn">Читать дальше <img src="img/icons/arrow-right-black.png" alt=""/></NavLink>
+                                    <NavLink to="/blog" className="site-btn">Читать дальше <img src="img/icons/arrow-right-black.png" alt=""/></NavLink>
                                 </div>
                             </div>
                         </div>

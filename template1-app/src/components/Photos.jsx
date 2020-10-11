@@ -9,8 +9,8 @@ const Photos = ()=>{
                             <div className="col-md-6 p-0">
                                 <div className="gallery-left-col">
                                     <div className="gallery-text">
-                                        <h2>“Камера заставляет забыть, где вы. Это не похоже на то, как если бы вы прятались, вы начинаете видеть многое.”</h2>
-                                        <p>Pellentesque dictum nisl in nibh dictum volutpat nec a quam. Vivamus suscipit nisl quis nulla pretium, vitae ornare leo sollicitudin. Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. </p>
+                                        <h2>“Выдающаяся фотография – это глубина чувств, а не глубина резкости.”</h2>
+                                        <p>Главное отличие современной художественной фотографии — это ее место в нашей жизни. Такие работы создаются для галерей и частных коллекций, очень редко их снимают на заказ. Смотрите фотографии раздела и наслаждайтесь поэзией искусства художественной фотографии. </p>
                                     </div>
                                     <div className="gallery-item">
                                         <img src="img/gallery/1.jpg" alt="#"/>

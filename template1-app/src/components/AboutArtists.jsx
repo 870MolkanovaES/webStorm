@@ -6,8 +6,7 @@ const AboutArtists = ()=>{
                     <div className="sp-container">
                         <div className="page-title">
                             <h2>Художники</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis et augue non mollis. Sed
-                                sagittis.</p>
+                            <p>На этой странице представлены все художники, чья живопись выставлена  в нашей галерее.</p>
                         </div>
                         <div className="row artists-row">
                             <div className="col-lg-4 col-sm-6 artists-col">
@@ -30,7 +29,7 @@ const AboutArtists = ()=>{
                                 <div className="artists-item">
                                     <img src="img/artists/3.jpg" alt=""/>
                                         <h4>ma_ha_devi</h4>
-                                        <span>Photographer</span>
+                                        <span>Фотограф</span>
                                         <p></p>
                                 </div>
                             </div>

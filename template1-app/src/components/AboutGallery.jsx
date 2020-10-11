@@ -40,24 +40,13 @@ const AboutGallery = ()=>{
                             <div className="col-lg-6 p-0">
                                 <div className="gallery-right-col">
                                     <div className="gallery-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis et augue non mollis.
-                                            Sed sagittis, turpis a imperdiet eleifend, est ligula convallis augue, sit amet porta
-                                            urna justo vel neque. Pellentesque a interdum nunc. Nunc congue eget nisl et laoreet.
-                                            Vivamus suscipit vulputate enim a pellentesque. Vivamus id mattis orci. Donec ut
-                                            dignissim dolor. Maecenas tortor ex, fauci-bus ac mauris a, pellentesque tincidunt
-                                            turpis. </p>
-                                        <p>Phasellus eget nibh nec nibh porta semper a nec turpis. Interdum et malesua-da fames ac
-                                            ante ipsum primis in faucibus. Maecenas rhoncus metus eu enim posuere, tincidunt porta
-                                            ex interdum. Nam id lectus dui. Cras feugiat purus condimentum, condimentum urna
-                                            imperdiet, vehicula nisi.</p>
-                                        <h2>Наши взгляды</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis et augue non mollis.
-                                            Sed sagittis, turpis a imperdiet eleifend, est ligula convallis augue, sit amet porta
-                                            urna justo vel neque. Pellentesque a interdum nunc.</p>
+                                        <p>Галерея The Look создана для того, чтобы представить на суд зрителя наиболее интересные картины, относящиеся к разным направлениям живописи и, таким образом, помочь нашим клиентам в оформлении картинами интерьеров квартир и загородных домов, ресторанов, офисов и гостиниц. В нашем интернет магазине вы сможете купить картины которые каждый день будут приносить вам радость и украсят любой интерьер. </p>
+                                        <p>На страницах нашей галереи вы найдёте живопись различных жанров и стилей. У нас Вы сможете заказать портрет, роспись стен и потолков, копию картин великих мастеров прошлого. Мы поможем Вам оформить в багет картины купленные у нас или в других галереях.</p>
+                                        <h2>Наша концепция</h2>
+                                        <p>The Look - проект, направленный на популяризацию современного искусства и культуры коллекционирования.</p>
+                                        <p>The Look - площадка для новых проектов и коллабораций, отличный шанс положить начало вашей коллекции и познакомиться с новыми именами из мира современного искусства.</p>
                                         <div className="gallery-quite">
-                                            <h2>“It is good to love many things, for therein lies the true strength, and who-soever
-                                                loves much performs much, and can accomplish much, and what is done in love is well
-                                                done.”</h2>
+                                            <h2>“Нужно любить – любить как можно больше, ибо в любви и заключается подлинная сила, и кто много любит, тот делает много и способен на многое, и что делается с любовью, то делается хорошо. ”</h2>
                                             <h3>Винсент Ваг Гог</h3>
                                         </div>
                                     </div>
