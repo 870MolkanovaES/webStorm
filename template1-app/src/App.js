@@ -48,7 +48,7 @@ function App(props) {
               }}/>
               <Route path="/artists" render={()=>{
                   return <div>
-                      <AboutArtists/>
+                      <AboutArtists getArticlesArtists={props.getArticlesArtists}/>
                   </div>
               }}/>
               <Route path="/elements" render={()=>{

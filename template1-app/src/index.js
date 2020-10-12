@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {getArticles} from "./state";
+import {getArticles, getArticlesArtists} from "./state";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App getArticles={getArticles}/>
+    <App getArticles={getArticles} getArticlesArtists={getArticlesArtists}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
